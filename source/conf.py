@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Encyclopedia 3.A'
+project = 'ZAP'
 copyright = '2023, Vincent Deguin'
 author = 'Vincent Deguin'
 release = '0.0.1'
@@ -16,7 +16,7 @@ release = '0.0.1'
 
 comments_config = {
    "utterances": {
-      "repo": "https://github.com/Deugz/Encyclopedia-Home",
+      "repo": "https://github.com/Deugz/SP-ZAP",
       "optional": "config",
    }
 }
@@ -52,20 +52,30 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "**.ipynb_checkpoints"]
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'pydata_sphinx_theme'
-html_logo = "_static/Logo/Encyclopedia-logo.png"
-html_favicon = "_static/Logo/Encyclopedia-logo.png"
+html_logo = "_static/Logo/Logo-provisoire.svg"
+html_favicon = "_static/Logo/Logo-provisoire.svg"
 html_static_path = ['_static']
 
 html_theme_options = {
     "external_links": [
         {
-            "url": "https://deugz.github.io/nb-journalisme/_build/html/intro.html",
-            "name": "&nbsp &nbsp &nbsp &nbsp 📰 Journalisme",
+            "url": "https://deugz.github.io/jb-brasserie/_build/html/intro.html",
+            "name": " &nbsp &nbsp &nbsp 🍺 Brasse de l'Eyre",
             "attributes": {"target": "_blank"},
         },
         {
-            "url": "https://deugz.github.io/nb-politique/_build/html/intro.html",
-            "name": "&nbsp &nbsp &nbsp ✊ Politique",
+            "url": "https://deugz.github.io/jb-potajet/_build/html/intro.html",
+            "name": "&nbsp &nbsp &nbsp 🥕 Pota'Jet",
+            "attributes": {"target": "_blank"},
+        },
+        {
+            "url": "https://deugz.github.io/jb-BAI/_build/html/intro.html",
+            "name": "&nbsp &nbsp &nbsp 🎵 BAI Music",
+            "attributes": {"target": "_blank"},
+        },
+        {
+            "url": "https://deugz.github.io/jb-nature/_build/html/intro.html",
+            "name": "&nbsp &nbsp &nbsp 🐸 La nature",
             "attributes": {"target": "_blank"},
         },
     ],
@@ -100,8 +110,8 @@ html_theme_options = {
     
 
     "logo": {
-        "text": " &nbsp V. Deguin &nbsp ",
-        "image_dark": "_static/Logo/logo_SFTP.png",
+        "text": " &nbsp &nbsp ZAP &nbsp ",
+        "image_dark": "_static/Logo/Logo-provisoire.svg",
         "alt_text": " &nbsp V. Deguin &nbsp &nbsp",
     },
     

@@ -1,4 +1,4 @@
-# Home
+# 🏠 Maison
 
 ```{toctree}
 :maxdepth: 2
@@ -42,4 +42,6 @@ Sur cette page on veut:
 
 
 ```
+
+
 
